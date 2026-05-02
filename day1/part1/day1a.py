@@ -4,7 +4,7 @@ def main():
 
     print(f"The dial starts by pointing at ", finalState)
 
-    with open('inputa.txt', 'r') as input:
+    with open('../input.txt', 'r') as input:
         inputRotations = input.read().splitlines()
 
     for rotation in inputRotations:
